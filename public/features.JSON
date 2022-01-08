@@ -1,0 +1,25 @@
+[
+    {    "id":"1",
+        "image":"https://templatekit.jegtheme.com/waterboom/wp-content/uploads/sites/136/2021/08/gazebo-M7GHEMR.png",
+        "title":"Private Gazebo",
+        "detail":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+        "id":"2",
+        "image":"https://templatekit.jegtheme.com/waterboom/wp-content/uploads/sites/136/2021/08/food.png",
+        "title":"Delicious Food",
+        "detail":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+        "id":"3",
+        "image":"https://templatekit.jegtheme.com/waterboom/wp-content/uploads/sites/136/2021/08/lcoker.png",
+        "title":"Safety Lockers",
+        "detail":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+        "id":"4",
+        "image":"https://templatekit.jegtheme.com/waterboom/wp-content/uploads/sites/136/2021/08/slide.png",
+        "title":"Safety Lockers",
+        "detail":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    }
+]

@@ -1,0 +1,122 @@
+.margin-bt{
+    margin-top:150px;
+    
+    
+}
+
+.card-titleone{
+    color:rgb(30, 206, 206);
+    
+}
+.card-titletwo{
+    color:rgb(4, 4, 24);
+}
+
+.card-textone{
+    color:rgb(153, 153, 153);
+    
+}
+.card-body4{
+    text-align:left;
+    margin-right: 30px;
+}
+
+.card-textone4{
+    color:rgb(153, 153, 153);
+}
+
+
+
+
+/* .bg{
+    background-color: aqua;
+} */
+
+.inline{
+    display: block;
+}
+
+.inline1, .inline2, .inline3, .inline4{
+    display: block;
+}
+
+.card-body{
+    align-items:flex-start;
+    text-align:left;
+}
+.card-title{
+    text-align:left;
+}
+.card-body1{
+    text-align:center;
+}
+.card-title1{
+    text-align: center;
+    color: white;
+}
+
+/* #height2{
+    height:800px;
+} */
+
+.card2{
+  
+   margin-bottom: -1680px;
+   margin-top:-50px;
+   margin-block-end: 20px;
+}
+
+.bg2{
+    background-color:rgb(4, 4, 24)
+}
+
+.tka {
+    color: skyblue;
+}
+
+.pak{
+    color: silver;
+}
+
+.color{
+    color:silver;
+}
+.tikc{
+    color: skyblue;
+    font-size: 12px;
+}
+
+.card-3{
+    /* background-color:rgb(6, 159, 219) */
+    background-color:rgb(30, 206, 206)
+}
+
+.tka1{
+    color:rgb(4, 4, 24)
+}
+.tikc1{
+    color:rgb(4, 4, 24);
+    font-size: 12px;
+   
+}
+
+.color1{
+    color: whitesmoke;
+}
+
+.ms-1, .ms-2, .ms-3, .ms-4, .ms-5{
+    margin-right: 10px;
+}
+
+.bg{
+    background-color: rgba(0, 255, 255, 0.171);
+    padding: 50px;
+    margin-top:120px;
+    margin-bottom: 120px;
+}
+
+.hr{
+    border-top: 3px solid rgba(187, 187, 187, 0.171);
+    width:100px;
+    
+}
