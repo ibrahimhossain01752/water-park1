@@ -67,7 +67,8 @@
 }
 
 .bg2{
-    background-color:rgb(4, 4, 24)
+    background-color:rgb(4, 4, 24);
+    background-color: black;
 }
 
 .tka {
@@ -120,3 +121,15 @@
     width:100px;
     
 }
+
+.container{
+    transition: 400ms;
+}
+
+.card2, .card3:hover {
+    transform: translateY(-50px);
+    
+  }
+  .card2, .card3:hover img {
+    transform: translate(-5px, -5px)  scale(1);
+  }

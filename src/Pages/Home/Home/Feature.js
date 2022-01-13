@@ -20,7 +20,7 @@ const Feature = () => {
                     <figure class="card-thumb">
                         <img class="card-image" src="https://media.istockphoto.com/photos/children-on-water-slide-picture-id509801333?b=1&k=20&m=509801333&s=170667a&w=0&h=hocoBL4_Uy_CWVuKO3lNsjs88mV1Np6zMCuMaUTI4qU=" alt="" />
                         <figcaption class="card-caption">
-                            <h4 class="card-title">Best Pools</h4>
+                            <h4 class="card-title">Water Slides</h4>
                             <p class="card-snippet">orem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore</p>
                             <a href="#" class="card-button">Read more<i class="fas fa-arrow-right"></i></a>
                         </figcaption>
@@ -30,7 +30,7 @@ const Feature = () => {
                     <figure class="card-thumb">
                         <img class="card-image h-100" src="https://media.istockphoto.com/photos/happy-family-having-fun-in-an-amusement-park-picture-id1051006012?b=1&k=20&m=1051006012&s=170667a&w=0&h=0EmAX-0QczEIvw6PsNlpIfj9Uk47piLKtOeaw8Je3IY=" alt="" />
                         <figcaption class="card-caption">
-                            <h4 class="card-title">Best Pools</h4>
+                            <h4 class="card-title">World Class Rides</h4>
                             <p class="card-snippet">orem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore</p>
                             <a href="#" class="card-button ">Read more<i class="fas fa-arrow-right"></i></a>
                         </figcaption>

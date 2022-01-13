@@ -39,11 +39,20 @@
       height:333px;
       background-color: white;
       box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+      
   }
-      .card3:hover {
+      /* .card3:hover {
   
           top: 50%;
               transform: translateY(-2%);
+              
+      } */
+
+      .card3:hover {
+        transform: translateY(-50px);
+      }
+      .card3:hover img {
+        transform: translate(-5px, -5px) rotate(-1deg) scale(1);
       }
   
   

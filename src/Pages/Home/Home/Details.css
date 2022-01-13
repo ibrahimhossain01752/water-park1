@@ -1,3 +1,55 @@
-.card-title{
-    margin-bottom:2000px;
+/* .container{
+    grid-template-columns: repeat(2fr,1fr);
 }
+
+.card1{
+    display:flex;
+} */
+
+.card-title{
+    text-align:center;
+}
+.card-text{
+    text-align: center;
+    color:black !important;
+
+    
+}
+.tablebody{
+  text-align:left;
+}
+th{
+  color:rgba(0, 0, 128, 0.582);
+}
+td{
+  text-align:right;
+  color:grey;
+}
+.clock{
+  color:skyblue;
+}
+.feature1{
+  background-color: rgba(113, 177, 202, 0.171); 
+  transition: 400ms;
+}
+.card:hover {
+    transform: translateY(-50px);
+  }
+  .card:hover img {
+    transform: translate(-5px, -5px) rotate(-1deg) scale(1);
+  }
+
+  .image{
+    width: 120%;
+    height: 118%;
+  }
+/* .card:hover::before {
+    opacity: 0.6;
+    transform: rotateX(7deg) translateY(-6px) scale(1.05);
+  }
+  .container .card:hover  {
+	transform: translateY(-20px);
+} */
+/* .span{
+    align-items:center;
+} */
