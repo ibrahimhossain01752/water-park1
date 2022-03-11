@@ -3,13 +3,13 @@ import'./Details.css';
 
 const Details = () => {
   return (
-    <div class="container mx-auto">
+    <div class="container mx-auto m-3 row-cols-md-6 mt-3 mb-5 row-cols-sm-12">
       <div class="row col-md-8 d-">
         <div class="row row-cols-1 row-cols-md-2 g-4">
           
         
       <div class="col">
-    <div class="card feature1">
+    <div class="card feature1 mb-5">
       <img src="https://templatekit.jegtheme.com/waterboom/wp-content/uploads/sites/136/2021/08/gazebo-M7GHEMR.png" class="card-img-top w-25 h-25 mx-auto mb-2 mt-5" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Private Gazebo</h5>
@@ -80,8 +80,8 @@ const Details = () => {
       <div class="col-md-4 ">
       <div class="row row-cols-1">
         <div class="col container">
-          <div >
-          <img class="image mt-5 " src="https://templatekit.jegtheme.com/waterboom/wp-content/uploads/sites/136/elementor/thumbs/force-field-e1628827096950-pbjdq7m5d53cshch0fqcclq17fuo353ivgiaxpis5s.jpg" alt=""/>
+          <div class="">
+          <img class="image23 mt-5 " src="https://templatekit.jegtheme.com/waterboom/wp-content/uploads/sites/136/elementor/thumbs/force-field-e1628827096950-pbjdq7m5d53cshch0fqcclq17fuo353ivgiaxpis5s.jpg" alt=""/>
           </div>
         </div>
       </div>

@@ -100,10 +100,15 @@
             top: calc(100% - 140px);
         } */
         
-	.card-image {
+	.card3-image {
 		transition: .5s ;
-        height: 10%;
+  
+        /* height: 10%; */
+       
 	}
+  .card3-image img{
+    width: 200%;
+  }
 	
 	.card-caption {
 		position: absolute;

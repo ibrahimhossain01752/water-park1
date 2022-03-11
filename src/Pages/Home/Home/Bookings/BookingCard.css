@@ -1,0 +1,41 @@
+/* .container{
+    margin-bottom:320px;
+} */
+
+.bg3{
+    background-color: aliceblue;
+}
+
+.dis, .dis3{
+    display: block;
+}
+
+.dis3{
+    margin-left: 20px;
+}
+.text1{
+    /* text-align:left; */
+    margin-right:350px;
+}
+.text2{
+    text-align:left;
+    /* color:gray; */
+}
+.card-textone6{
+    display: block;
+    text-align:left;
+    color:gray;
+}
+p{
+    color:gray;
+}
+.image {
+    height: 430px;
+    width: 100%;
+}
+
+.mapouter{
+    position:relative;text-align:right;height:430px;width:100%;
+}
+
+.gmap_canvas {overflow:hidden;background:none!important;height:430px;width:100%;}

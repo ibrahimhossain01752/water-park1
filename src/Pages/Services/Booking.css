@@ -1,11 +1,33 @@
-.banner-main{
-    background: url('https://media.istockphoto.com/photos/happy-family-with-inflatable-toys-in-swimming-pool-at-water-park-picture-id1331782413?b=1&k=20&m=1331782413&s=170667a&w=0&h=-d6Cf7O4srXot4Jkb_NO6lXUS0aTIjHS5Em-SFIw7l0=');
+.banner-main4{
+    background: url('https://media.istockphoto.com/photos/cheerful-girl-with-hands-up-having-fun-sliding-in-water-park-on-ring-picture-id1064470290?b=1&k=20&m=1064470290&s=170667a&w=0&h=DhDdq6ndw9mhYI7mfBuoOzQ9EQtQlzYE4au1CZwZRjo=');
     background-size: cover;
 	background-position: center;
+    
+    width: 100%;
+    /* height: 50%; */
+    /* height: 1000px; */
 }
-.banner-overlay{
-	background-color: rgba(0, 0, 0, 0.61);
-	padding: 200px 0;
+
+.clock{
+	font-weight: bold;
+}
+.book-form{
+	background-color: #064663;
+}
+.banner-overlay4 {
+	/* background-color: #3252888a; */
+	/* background-color:rgba(0, 0, 128, 0.568); */
+	/* background-color: #0c1d7f9c; */
+	/* background-color: #35858b8e; */
+	background-color: #064663da;
+	padding: 80px 50px;
+	margin-top:180px;
+	
+    
+}
+.container4{
+    margin-bottom: 60px;
+	/* margin-top: 60px; */
 }
 .banner-content h6{
     font-size: 20px;

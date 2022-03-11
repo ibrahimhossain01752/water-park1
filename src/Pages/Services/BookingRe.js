@@ -1,54 +1,32 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
-import './Banner.css';
+import './Booking.css';
 
-const Banner = () => {
-    function sendEmail(e) {
-        e.preventDefault();
-
-        emailjs.sendForm('service_p6km8i4','template_2swxfja', e.target,
-         "ZL-Q0Vg6WeBfw_xFM"
-         ).then(res =>{
-             console.log(res);
-         }).catch(err=>console.log(err));
-    }
+const BookingRe = () => {
     return (
-        <div className='banner-main text-white '>
-        <div className="banner-overlay">
-        <div className="container col-md-12 col-sm-6">
+        
+        <div className='banner-main4 text-white '>
+        <div className="banner-overlay4">
+        <div className="container4  col-md-12 col-sm-6">
             <div className="row">
             {/* <Fade left> */}
-                <div className="col-lg-6">
-                    <div className="banner-content text-center text-md-start">
-                        <h6>Welcome To WaterKingdom</h6>
-                        <h1>THE GREATEST WATER AND AMUSEMENT PARK IN THE WORLD</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-                        
-                        <span className='banner-video d-flex align-items-center' >
-                            <a className='animation-button' target="_blank" href="https://www.youtube.com/watch?v=KXT2w0dCsYc&ab_channel=AddieMaePlays"><i class="far fa-play-circle"></i> </a>
-                            <h5 className='ms-3'>Watch Intro</h5>
-                        </span>
-                    </div>
-                </div>
+               
                 {/* </Fade> */}
-                <div className="col-lg-2"></div>
+                {/* <div className="col-lg-2"></div> */}
             {/* <Fade right> */}
                 <div className="col-lg-4">
                 <div className="book-form text-white " data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500">
-                    <form onSubmit={sendEmail}> {/* onSubmit={handleSubmit(onSubmit)} */}
-                        <label>name</label>
+                    <form class="bg3" > {/* onSubmit={handleSubmit(onSubmit)} */}
                         <input
                         // {...register("user")}
                         className="p-3 my-2 w-100 book-form-input"
                         placeholder='name'
                         />
-                        <label>Email</label>
                         <input
                         // {...register("email")}
                         className="p-3 my-2 w-100 book-form-input"
-                        placeholder='user_email'
+                        placeholder='email'
                         />
                         <br />
                         <select className="p-3 my-2 w-100 book-form-input"
@@ -65,7 +43,6 @@ const Banner = () => {
                         className="p-3 my-2 w-100 book-form-input"
                         />
                         <br />
-                        <label>comments</label>
                         <textarea
                        /*  {...register("comments")} */
                         placeholder="comments"
@@ -83,6 +60,50 @@ const Banner = () => {
                     </form>
                 </div>
             </div>
+            <div className="col-lg-8">
+                    <div className="banner-content text-center text-md-start">
+                        <h6>BOOK NOW</h6>
+                        <h3 class="text-light fw-5">SPEND YOUR HOLIDAY</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius tempor incididunt ut labore et dolore magna aliqua. Ut enim adiqua minim veniam quis nostrud exercitation ullamco incididunt magna aliqua veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                        <h5 class="fw-5">Opening Hours</h5>
+                     
+                    </div>
+                    <div>
+                    <table class="table">
+  {/* <thead>
+    <tr> */}
+      {/* <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th> */}
+      {/* <th scope="col">Handle</th> */}
+    {/* </tr>
+  </thead> */}
+  <tbody class="tablebody">
+    <tr>
+      <th class="text-light" scope="row">Monday - Friday</th>
+      {/* <td>Mark</td> */}
+      <td class="text-light"><i class="fas fa-clock m-2 clock "></i>11:00 AM - 16:00 PM</td>
+      {/* <td>@mdo</td> */}
+    </tr>
+    <tr>
+      <th class="text-light" scope="row">Saturday - Sunday</th>
+      {/* <td>Jacob</td> */}
+      <td class="text-light"><i class="fas fa-clock m-2 clock"></i>09:00 AM - 17:00 PM</td>
+      {/* <td>@fat</td> */}
+    </tr>
+    <tr>
+      <th class="text-light" scope="row">Holiday</th>
+      {/* <td colspan="2">Larry the Bird</td> */}
+      <td class="text-light"><i class="fas fa-clock m-2 clock"></i>09:00 AM - 17:00 PM</td>
+      {/* <td>@twitter</td> */}
+    </tr>
+  </tbody>
+</table>
+<div>
+    
+</div>
+                    </div>
+                </div>
             {/* </Fade> */}
             </div>
         </div>
@@ -91,4 +112,4 @@ const Banner = () => {
     );
 };
 
-export default Banner;
+export default BookingRe;
